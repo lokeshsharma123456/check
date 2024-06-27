@@ -1,0 +1,27 @@
+.food-img {
+    border-radius: 16px;
+    width: 100%;
+}
+
+.name-rating {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.rating {
+    border-radius: 8px;
+    padding: 2px 4px;
+}
+.green {
+    background-color: green;
+}
+.orange {
+    background-color: orange;
+}
+.red {
+    background-color: red;
+}
+.restaurantName {
+    font-weight: 500;
+}

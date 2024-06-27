@@ -1,0 +1,28 @@
+.restaurant-tile-container {
+    display: flex;
+    gap: 16px;
+    row-gap: 32px;
+    flex-wrap: wrap;
+    padding: 32px;
+    max-width: 1440px;
+}
+
+.restaurant-tile-container > .restaurant-tile {
+    flex-basis: calc(25% - 16px);
+    max-width: calc(25% - 16px);
+}
+.restaurantContainer {
+    width: 70%;
+}
+.MuiDrawer-paper {
+    width: 30%;
+}
+
+.cuisine-filter {
+    padding: 32px 16px;
+}
+
+.cuisines-list {
+    max-height: 400px;
+    overflow: auto;
+}
